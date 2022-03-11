@@ -1,5 +1,5 @@
 import { strictEqual } from "node:assert";
-import dateFormat from "../lib/dateformat.js";
+import { dateFormat } from "../lib/dateformat.cjs";
 
 describe("Mask: 'HH'", function () {
   it("should format '1872-02-01T15:55:16.524' as '15'", function (done) {

@@ -1,6 +1,6 @@
 import { strictEqual } from "node:assert";
 
-import dateFormat,{ masks } from "../lib/dateformat.js";
+import { dateFormat, masks } from "../lib/dateformat.cjs";
 
 var expects = {
   default: "Sat Mar 08 2014 13:19:44",

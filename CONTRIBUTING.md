@@ -8,7 +8,7 @@ Feel free to raise a PR or Issue for any suggested improvements to the package.
 To run dateformat, first clone the repository to your local machine.  
 Then run `npm i` to install all the required dependencies.  
 Then build dateformat by running `npm run build`.  
-Then you can import dateformat from the `lib` directory and call it as needed.
+Then you can import { dateFormat } from the `lib` directory and call it as needed.
 
 ## Benchmarking
 

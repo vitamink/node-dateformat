@@ -23,7 +23,7 @@ const timezoneClip = /[^-+\dA-Z]/g;
  * @param {boolean} utc
  * @param {boolean} gmt
  */
-export default function dateFormat (date, mask, utc, gmt) {
+export function dateFormat (date, mask, utc, gmt) {
   // You can't provide utc if you skip other args (use the 'UTC:' mask prefix)
   if (
     arguments.length === 1 &&

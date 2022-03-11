@@ -1,5 +1,5 @@
 import { strictEqual } from "node:assert";
-import { formatTimezone } from "../lib/dateformat.js";
+import { formatTimezone } from "../lib/dateformat.cjs";
 
 describe("Mask: 'Z'", function () {
   it("should format 'Tue Sep 08 2020 13:26:11 GMT-0500 (Central Daylight Time)' as 'CDT'", function (done) {

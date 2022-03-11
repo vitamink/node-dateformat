@@ -1,5 +1,5 @@
 import { strictEqual } from "node:assert";
-import dateFormat from "../lib/dateformat.js";
+import { dateFormat } from "../lib/dateformat.cjs";
 
 describe("Mask: 'T'", function () {
   it("should format '1654-04-11T08:47:34.086' as 'A'", function (done) {

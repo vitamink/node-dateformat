@@ -1,6 +1,6 @@
 import { strictEqual,notStrictEqual } from 'node:assert';
 
-import dateFormat from './../lib/dateformat.js';
+import { dateFormat } from './../lib/dateformat.cjs';
 
 const dayNamesShort = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 const dayNamesLong = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];

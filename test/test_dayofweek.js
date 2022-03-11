@@ -1,6 +1,6 @@
 import { strictEqual } from 'node:assert';
 
-import dateFormat from './../lib/dateformat.js';
+import { dateFormat } from '../lib/dateformat.cjs';
 
 describe('dayOfWeek', function() {
   it('should correctly format the timezone part', function(done) {

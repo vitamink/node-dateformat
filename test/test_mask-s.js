@@ -1,5 +1,5 @@
 import { strictEqual } from "node:assert";
-import dateFormat from "../lib/dateformat.js";
+import { dateFormat } from "../lib/dateformat.cjs";
 
 describe("Mask: 's'", function () {
   it("should format '1993-10-08T10:31:40.811' as '40'", function (done) {

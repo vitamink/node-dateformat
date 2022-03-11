@@ -1,5 +1,5 @@
 import { ok } from "node:assert";
-import dateFormat from "../lib/dateformat.js";
+import { dateFormat } from "../lib/dateformat.cjs";
 
 describe("Mask: 'p'", function () {
   it("should get timezone for any date as something like [+-]XX:XX", function (done) {

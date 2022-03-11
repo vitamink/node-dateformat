@@ -1,5 +1,5 @@
 import { strictEqual,notStrictEqual } from "node:assert";
-import dateFormat from "../lib/dateformat.js";
+import { dateFormat } from "../lib/dateformat.cjs";
 
 describe("Mask: 'dd'", function () {
   it("should format '2003-9-11' as '11'", function (done) {
@@ -17,7 +17,7 @@ describe("Mask: 'dd'", function () {
   });
 
   it("should format '1032-12-07' as '07'", function (done) {
-    var date = new Date("1032-12-07");
+    var date = new Date("1032-12-07 00:00");
     var d = dateFormat(date, "dd");
     strictEqual(d, "07");
     done();
