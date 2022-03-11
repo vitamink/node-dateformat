@@ -20,7 +20,7 @@ $ dateformat --help
 As taken from Steven's post, modified to match the Modifications listed above:
 
 ```js
-import dateFormat, { masks } from "dateformat";
+const { default: dateFormat, masks } = require("dateformat");
 const now = new Date();
 
 // Basic usage
