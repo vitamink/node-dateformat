@@ -17,7 +17,6 @@ describe("Mask: 'd'", function () {
   });
 
   it("should format '1830-01-20' as '20'", function (done) {
-    var date2 = new Date("1830-01-20");
     var date = new Date("1830-01-20 00:00");
     var d = dateFormat(date, "d");
     strictEqual(d, "20");
